@@ -23,7 +23,7 @@
 ---
 
 ## 🛠 Estrutura do Projeto
-
+```
 / (raiz)
 ├── assets
 │ └── images
@@ -44,7 +44,7 @@
 │ ├── pt.json
 │ └── fr.json
 └── README.md
-
+```
 
 ---
 
