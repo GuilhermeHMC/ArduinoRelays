@@ -37,11 +37,10 @@ Lista dos principais componentes necessários para a montagem deste projeto:
 
 ## 🌐 Funcionalidades
 
-- Controle WEB manual e programado de relés.
+- Aplicação Web com controle manual de relés.
 - Interface Web moderna (modo claro e escuro).
-- Multilíngue: Português, Inglês e Francês.
-- Design acessível para todos, Acessibilidade reforçada (descrições claras, imagens adaptadas, contraste adequado).
-- Backend Node.js para comunicação com Arduino.
+- Design acessível para todos, Acessibilidade reforçada (descrições claras, contraste adequado).
+- Backend Node.js para comunicação via API com Arduino.
 
 ---
 
@@ -73,11 +72,12 @@ Lista dos principais componentes necessários para a montagem deste projeto:
 
 ## 🚀 Como Rodar
 
-1. Suba o firmware no Arduino com o arquivo `relay_control.ino`.
-2. Instale as dependências do Node.js no backend.
-3. Inicie o servidor Node.js (`node server.js`).
-4. Acesse `http://localhost:3000` no navegador.
-5. Controle os relés pela interface web!
+1. Conecte o Arduino via USB.
+2. Suba o firmware no Arduino com o arquivo `relay_control.ino`.
+3. Instale as dependências do Node.js no backend (npm install).
+4. Inicie o servidor Node.js (`node server.js`).
+5. Acesse `http://localhost:3000` no navegador.
+6. Controle os relés pela interface web!
 
 ---
 
