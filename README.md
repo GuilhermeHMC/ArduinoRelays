@@ -1,6 +1,29 @@
 # Arduino Relays Tester - Multilanguage and Accessible - Open Source Project
 
-**Projeto Open Source** para controle e teste de relés via Arduino e Node.js, com foco em **acessibilidade**, **modo claro/escuro** e **internacionalização** (Português, Inglês e Francês).
+**Projeto Open Source** Aplicação WEB para controle e teste de relés via Arduino e Node.js, com foco em **acessibilidade**, **modo claro/escuro** e **internacionalização** (Português, Inglês e Francês).
+
+
+
+---
+
+## 🧰 Materiais Utilizados
+
+Lista dos principais componentes necessários para a montagem deste projeto:
+
+- **Arduino Uno** (original ou compatível)
+- **2x Módulo Relé 5V** (1 canal cada)
+- **Mini Protoboard** (placa de ensaio pequena)
+- **Cabo de Dados USB** (para conectar o Arduino ao computador)
+- **Conector IEC 60320 C14** (entrada de força padrão internacional)
+- **Cabo de Força Padrão C14** (para alimentação elétrica)
+- **Cabos Jumper**
+- **Tomadas Elétricas** (para conectar os dispositivos)
+- **Soquetes de Lâmpada** (ou atuadores de sua preferência)
+- **Conectores Wago** (ou similares para conexões elétricas seguras)
+- **Fios Elétricos** (adequados para 127V ou 220V conforme necessidade)
+
+> ⚡ **Atenção:** A ligação de dispositivos em corrente alternada (127V/220V) deve ser realizada com muito cuidado.  
+> Se você não tiver experiência, solicite ajuda de um profissional qualificado para evitar riscos de choque elétrico.
 
 ---
 
@@ -8,16 +31,16 @@
 
 ![Diagrama de Hardware](assets/images/ArduinoRelaysDiagram.png)
 
-> Montagem simples utilizando Arduino para testes manuais e programados de relés.
+> Montagem simples utilizando Arduino e Módulos Relé 5V 1 Canal.
 
 ---
 
 ## 🌐 Funcionalidades
 
-- Controle manual e programado de relés.
+- Controle WEB manual e programado de relés.
 - Interface Web moderna (modo claro e escuro).
-- Suporte a três idiomas: Português, Inglês e Francês.
-- Design acessível para todos, com foco em inclusão (problemas visuais, mobilidade reduzida e autismo).
+- Multilíngue: Português, Inglês e Francês.
+- Design acessível para todos, Acessibilidade reforçada (descrições claras, imagens adaptadas, contraste adequado).
 - Backend Node.js para comunicação com Arduino.
 
 ---
@@ -76,11 +99,13 @@ Este projeto é de código aberto sob a licença MIT.
 
 ---
 
-## 📬 Contato
+## 👨‍💻 Sobre o Autor
 
 - **Autor**: Guilherme H. M. Cardoso
 - **Email**: guihmca@gmail.com
-
+- Apaixonado por tecnologia, acessibilidade e automação.
+- Criando soluções para tornar o mundo mais acessível e inclusivo.
+- 
 ---
 
 > **Nota**: Este projeto é apenas para fins educacionais e de fomento à inclusão de pessoas com deficiência no mundo da tecnologia e automação.
