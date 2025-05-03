@@ -37,10 +37,10 @@ Lista dos principais componentes necessários para a montagem deste projeto:
 
 ## 🌐 Funcionalidades
 
-- Aplicação Web com controle manual de relés.
-- Interface Web moderna (modo claro e escuro).
-- Design acessível para todos, Acessibilidade reforçada (descrições claras, contraste adequado).
+- Aplicação Web com controle e teste manual de relés.
 - Backend Node.js para comunicação via API com Arduino.
+- Design acessível para todos, Acessibilidade reforçada (descrições claras, contraste adequado).
+- Interface Web moderna (modo claro e escuro).
 
 ---
 
@@ -99,9 +99,9 @@ Este projeto é de código aberto sob a licença MIT.
 
 - **Autor**: Guilherme H. M. Cardoso
 - **Email**: guihmca@gmail.com
-- Apaixonado por tecnologia, acessibilidade e automação.
+- Apaixonado por tecnologia, hardware, software e automação.
 - Criando soluções para tornar o mundo mais acessível e inclusivo.
-- 
+  
 ---
 
 > **Nota**: Este projeto é apenas para fins educacionais e de fomento à inclusão de pessoas com deficiência no mundo da tecnologia e automação.
