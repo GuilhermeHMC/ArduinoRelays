@@ -63,7 +63,8 @@ Se você gostou deste projeto e quer apoiar novos desenvolvimentos focados em au
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/SeuUsuario)
 
-Ou envie uma contribuição via Pix.
+Ou envie uma contribuição via Pix:
+
 ![Pix](assets/images/Pix.png)
 
 ---
