@@ -61,10 +61,6 @@ Lista dos principais componentes necessários para a montagem deste projeto:
 │ └── server.js
 ├── arduino
 │ └── relay_control.ino
-├── i18n
-│ ├── en.json
-│ ├── pt.json
-│ └── fr.json
 └── README.md
 ```
 
