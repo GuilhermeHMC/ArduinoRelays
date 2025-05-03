@@ -56,7 +56,7 @@ Lista dos principais componentes necessários para a montagem deste projeto:
 ├── frontend
 │ ├── index.html
 │ ├── style.css
-│ └── app.js
+│ └── script.js
 ├── backend
 │ └── server.js
 ├── arduino
