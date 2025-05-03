@@ -25,24 +25,25 @@
 ## 🛠 Estrutura do Projeto
 
 / (raiz)
-/assets
-/images
-ArduinoRelaysDiagram.png
-ArduinoRelays1.jpeg
-ArduinoRelays2.jpeg
-/frontend
-index.html
-style.css
-app.js
-/backend
-server.js
-/arduino
-relay_control.ino
-/i18n
-en.json
-pt.json
-fr.json
-README.md
+├── assets
+│ └── images
+│ ├── ArduinoRelaysDiagram.png
+│ ├── ArduinoRelays1.jpeg
+│ ├── ArduinoRelays2.jpeg
+│ └── Pix.png
+├── frontend
+│ ├── index.html
+│ ├── style.css
+│ └── app.js
+├── backend
+│ └── server.js
+├── arduino
+│ └── relay_control.ino
+├── i18n
+│ ├── en.json
+│ ├── pt.json
+│ └── fr.json
+└── README.md
 
 
 ---
