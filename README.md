@@ -99,6 +99,7 @@ Este projeto é de código aberto sob a licença MIT.
 
 - **Autor**: Guilherme H. M. Cardoso
 - **Email**: guihmca@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/guilherme-henrique-marques-cardoso-a59808213/
 - Apaixonado por tecnologia, hardware, software e automação.
 - Criando soluções para tornar o mundo mais acessível e inclusivo.
   
