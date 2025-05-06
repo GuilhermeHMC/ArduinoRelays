@@ -1,0 +1,106 @@
+:root {
+  --primary: #4CAF50;
+  --primary-dark: #388E3C;
+  --secondary: #F44336;
+  --bg-dark: #121212;
+  --card-dark: #1E1E1E;
+  --text-light: #F5F5F5;
+}
+
+[data-theme="light"] {
+  --bg-dark: #F5F5F5;
+  --card-dark: #FFFFFF;
+  --text-light: #333;
+}
+
+body {
+  font-family: 'Verdana', sans-serif;
+  background: var(--bg-dark);
+  color: var(--text-light);
+  padding: 2rem;
+}
+
+.relay-card {
+  background: var(--card-dark);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: var(--primary);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.led {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  background: #ccc;
+}
+
+.led.on {
+  background: var(--primary);
+  box-shadow: 0 0 10px var(--primary);
+}
+
+.led.off {
+  background: var(--secondary);
+  box-shadow: 0 0 10px var(--secondary);
+}
+
+.theme-toggle {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
