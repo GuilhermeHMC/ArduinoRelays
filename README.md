@@ -1,108 +1,116 @@
-# Arduino Relays Tester - Multilanguage and Accessible - Open Source Project
+# Arduino Relays Tester - Open Source Project
 
-**Projeto Open Source** Aplicação WEB para controle e teste de relés via Arduino e Node.js, com foco em **acessibilidade**, **modo claro/escuro** e **internacionalização** (Português, Inglês e Francês).
-
-
+**Web application for controlling and testing relays using Arduino and Node.js.**
 
 ---
 
-## 🧰 Materiais Utilizados
+## 🧰 Materials Used
 
-Lista dos principais componentes necessários para a montagem deste projeto:
+List of main components needed to build this project:
 
-- **Arduino Uno** (original ou compatível)
-- **2x Módulo Relé 5V** (1 canal cada)
-- **Mini Protoboard** (placa de ensaio pequena)
-- **Cabo de Dados USB** (para conectar o Arduino ao computador)
-- **Conector IEC 60320 C14** (entrada de força padrão internacional)
-- **Cabo de Força Padrão C14** (para alimentação elétrica)
-- **Cabos Jumper**
-- **Tomadas Elétricas** (para conectar os dispositivos)
-- **Soquetes de Lâmpada** (ou atuadores de sua preferência)
-- **Conectores Wago** (ou similares para conexões elétricas seguras)
-- **Fios Elétricos** (adequados para 127V ou 220V conforme necessidade)
+- **Arduino Uno** (original or compatible)
+- **2x 5V Relay Module** (1 channel each)
+- **Mini Breadboard** (small prototyping board)
+- **USB Data Cable** (to connect Arduino to the computer)
+- **IEC 60320 C14 Connector** (standard international power connector)
+- **C14 Standard Power Cable** (for electrical power)
+- **Jumper Wires**
+- **Electrical Outlets** (for connecting devices)
+- **Lamp Sockets** (or actuators of your choice)
+- **Wago Connectors** (or similar, for safe electrical connections)
+- **Electrical Wires** (appropriate for 127V or 220V depending on your needs)
 
-> ⚡ **Atenção:** A ligação de dispositivos em corrente alternada (127V/220V) deve ser realizada com muito cuidado.  
-> Se você não tiver experiência, solicite ajuda de um profissional qualificado para evitar riscos de choque elétrico.
-
----
-
-## 📷 Diagrama de Montagem
-
-![Diagrama de Hardware](assets/images/ArduinoRelaysDiagram.png)
-
-> Montagem simples utilizando Arduino e Módulos Relé 5V 1 Canal.
+> ⚡ **Attention:** Handling devices with AC power must be done very carefully.  
+> If you are not experienced, ask for help from a qualified professional to avoid the risk of electric shock.
 
 ---
 
-## 🌐 Funcionalidades
+## 📷 Assembly Diagram
 
-- Aplicação Web com controle e teste manual de relés.
-- Backend Node.js para comunicação via API com Arduino.
-- Design acessível para todos, Acessibilidade reforçada (descrições claras, contraste adequado).
-- Interface Web moderna (modo claro e escuro).
+![Hardware Diagram](frontend/assets/ArduinoRelaysDiagram.png)
+
+> Simple assembly using Arduino Uno and 5V 1-channel relay modules.
 
 ---
 
-## 🛠 Estrutura do Projeto
+## 🌐 Features
+
+- Web application with manual relay control and testing.
+- Node.js backend for API communication with Arduino.
+- WebSockets to avoid errors between relays and application.
+- Accessible design for everyone (clear descriptions, proper contrast).
+- Modern web interface (light and dark modes).
+
+---
+
+## 🛠 Project Structure
 ```
-/ (raiz)
-├── assets
-│ └── images
-│ ├── ArduinoRelaysDiagram.png
-│ ├── ArduinoRelays1.jpeg
-│ ├── ArduinoRelays2.jpeg
-│ └── Pix.png
-├── frontend
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-├── backend
-│ └── server.js
+/ (root)
 ├── arduino
-│ └── relay_control.ino
+│   └── relay_test
+│       └── relay_test.ino
+├── backend
+│   ├── .env
+│   ├── .env.example
+│   └── server.js
+├── frontend
+│   └── assets
+│       ├── css
+│       │   └── style.css
+│       ├── js
+│       │   └── script.js
+│       ├── ArduinoRelaysDiagram.png
+│       ├── ArduinoRelays1.jpeg
+│       └── ArduinoRelays2.jpeg
+│   └── index.html
 └── README.md
 ```
 
 ---
 
-## 🚀 Como Rodar
+## 🚀 How to Run
 
-1. Conecte o Arduino via USB.
-2. Suba o firmware no Arduino com o arquivo `relay_control.ino`.
-3. Instale as dependências do Node.js no backend (npm install).
-4. Inicie o servidor Node.js (`node server.js`).
-5. Acesse `http://localhost:3000` no navegador.
-6. Controle os relés pela interface web!
+1. Connect the Arduino via USB.
+2. Open the Arduino IDE and upload the firmware located at `arduino/relay_test/relay_test.ino`.
+3. In the `backend/` folder, copy `.env.example` to `.env` and adjust if necessary.
+4. Install the Node.js backend dependencies:
+   ```bash
+   cd backend
+   npm install
+   ```
+5. Start the Node.js server:
+   ```bash
+   node server.js
+   ```
+6. Open your browser and go to `http://localhost:3000`.
+7. Control the relays through the web interface!
+
+> ⚡ **Note:** Ensure that the correct serial port is set in your `.env` file.
+---
+
+## 💖 Support this Project
+
+If you liked this project, please consider leaving a ⭐ on GitHub to help it reach more people!  
+Your support helps promote accessibility and technological inclusion.
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/SeuUsuario/SeuRepositorio?style=social)](https://github.com/SeuUsuario/SeuRepositorio/stargazers)
 
 ---
 
-## 💖 Apoie este Projeto
+## 📜 License
 
-Se você gostou deste projeto e quer apoiar novos desenvolvimentos focados em automação e acessibilidade:
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/SeuUsuario)
-
-Ou envie uma contribuição via Pix:
-
-![Pix](assets/images/Pix.png)
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📜 Licença
+## 👨‍💻 About the Author
 
-Este projeto é de código aberto sob a licença MIT.
-
----
-
-## 👨‍💻 Sobre o Autor
-
-- **Autor**: Guilherme H. M. Cardoso
+- **Author**: Guilherme H. M. Cardoso
 - **Email**: guihmca@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/guilherme-henrique-marques-cardoso-a59808213/
-- Apaixonado por tecnologia, hardware, software e automação.
-- Criando soluções para tornar o mundo mais acessível e inclusivo.
-  
+- **LinkedIn**: [https://www.linkedin.com/in/guilherme-henrique-marques-cardoso-a59808213/](https://www.linkedin.com/in/guilherme-henrique-marques-cardoso-a59808213/)
+- Passionate about technology, hardware, software, and automation.
+- Creating solutions to make the world more accessible and inclusive.
+
 ---
 
-> **Nota**: Este projeto é apenas para fins educacionais e de fomento à inclusão de pessoas com deficiência no mundo da tecnologia e automação.
+> **Disclaimer:** This project is intended for educational purposes and to promote the inclusion of people with disabilities in the fields of technology and automation.
