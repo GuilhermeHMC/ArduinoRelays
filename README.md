@@ -54,14 +54,14 @@ List of main components needed to build this project:
 │   ├── .env.example
 │   └── server.js
 ├── frontend
-│   └── assets
-│       ├── css
-│       │   └── style.css
-│       ├── js
-│       │   └── script.js
-│       ├── ArduinoRelaysDiagram.png
-│       ├── ArduinoRelays1.jpeg
-│       └── ArduinoRelays2.jpeg
+│   ├── assets
+│   │   ├── css
+│   │   │   └── style.css
+│   │   ├── js
+│   │   │   └── script.js
+│   │   ├── ArduinoRelaysDiagram.png
+│   │   ├── ArduinoRelays1.jpeg
+│   │   └── ArduinoRelays2.jpeg
 │   └── index.html
 └── README.md
 ```
