@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle de Relés</title>
+  <link href="https://fonts.googleapis.com/css2?family=Verdana:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>IoT Relay Control</h1>
+    
+    <div class="relay-card">
+      <div class="led" id="led1"></div>
+      <h2>Relay 1</h2>
+      <label class="switch">
+        <input type="checkbox" data-relay="1">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    
+    <div class="relay-card">
+      <div class="led" id="led2"></div>
+      <h2>Relay 2</h2>
+      <label class="switch">
+        <input type="checkbox" data-relay="2">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </div>
+
+  <button class="theme-toggle">🌓</button>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
