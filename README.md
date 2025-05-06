@@ -93,13 +93,13 @@ List of main components needed to build this project:
 If you liked this project, please consider leaving a ⭐ on GitHub to help it reach more people!  
 Your support helps promote accessibility and technological inclusion.
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/SeuUsuario/SeuRepositorio?style=social)](https://github.com/SeuUsuario/SeuRepositorio/stargazers)
+[![GitHub Repo stars](https://img.shields.io/github/stars/GuilhermeHMC/ArduinoRelays?style=social)](https://github.com/GuilhermeHMC/ArduinoRelays/stargazers)
 
 ---
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
 
 ---
 
@@ -107,7 +107,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 - **Author**: Guilherme H. M. Cardoso
 - **Email**: guihmca@gmail.com
-- **LinkedIn**: [https://www.linkedin.com/in/guilherme-henrique-marques-cardoso-a59808213/](https://www.linkedin.com/in/guilherme-henrique-marques-cardoso-a59808213/)
+- **LinkedIn**: [Guilherme H. M. Cardoso](https://www.linkedin.com/in/guilherme-henrique-marques-cardoso-a59808213/)
 - Passionate about technology, hardware, software, and automation.
 - Creating solutions to make the world more accessible and inclusive.
 
